@@ -20,18 +20,18 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
     marginTop: Constants.statusBarHeight,
   },
   imgBackgound: {
-    flex: 1,
+    aspectRatio: 0.5,
     justifyContent: "center"
 
   },
   bottonStyle: {
+    flex: 1,
     position: 'absolute',
-    marginTop: 400,
-    marginHorizontal: 50,
+    alignItems: 'center',
+    justifyContent: 'center',
     backgroundColor: '#fff'
   },
   bottonStyle2:{
@@ -42,8 +42,8 @@ const styles = StyleSheet.create({
   },
   img1: {
     position: 'absolute',
-    width: 200,
-    height: 400,
+    flex: 1,
+    alignItems: 'center',
     justifyContent: 'center',
     aspectRatio: 0.4615,
   },
